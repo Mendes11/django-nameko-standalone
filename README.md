@@ -10,7 +10,7 @@ Have dependecies of:
 * nameko==2.12.0
 
 ## Installation
-`pip install django-nameko-standalone`
+`pip install nameko-django-orm`
 
 ## Usage
 This package setup the django framework to take advantage of the ORM features and some other django features.

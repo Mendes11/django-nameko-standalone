@@ -11,7 +11,7 @@ setuptools.setup(
     description="Use django into a nameko service",
     long_description=long_description,
     url="https://github.com/jesusenlanet/django-nameko-standalone",
-    packages=['django_nameko_standalone'],
+    packages=['nameko_django_orm'],
     platforms=['Linux'],
     install_requires=[
         "Django>=1.11.27,<3.0",

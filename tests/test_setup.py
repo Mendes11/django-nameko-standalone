@@ -1,7 +1,7 @@
 import os
 from unittest import TestCase
 
-from django_nameko_standalone import DjangoModels
+from nameko_django_orm import DjangoModels
 
 
 class SetUpTestCase(TestCase):

@@ -102,8 +102,9 @@ It will run a bunch of tests using python3.6 and multiple django versions
         * models.py
     
 ### Example usage
+
 ```python
-from django_nameko_standalone import DjangoModels
+from nameko_django_orm import DjangoModels
 from nameko.rpc import rpc
 
 

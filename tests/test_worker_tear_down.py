@@ -3,7 +3,7 @@ from unittest import TestCase
 
 from mock import Mock, patch, call
 
-from django_nameko_standalone import DjangoModels
+from nameko_django_orm import DjangoModels
 
 
 class TearDownTestCase(TestCase):

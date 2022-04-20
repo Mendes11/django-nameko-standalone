@@ -5,7 +5,7 @@ with open('README.txt') as file:
 
 setuptools.setup(
     name="django-nameko-standalone",
-    version="1.3.2",
+    version="1.3.3",
     author="Jesus Gutierrez Almazan",
     author_email="jesus.pedro.gutierrez.almazan@gmail.com",
     description="Use django into a nameko service",
@@ -15,7 +15,7 @@ setuptools.setup(
     platforms=['Linux'],
     install_requires=[
         "Django>=1.11.27,<3.0",
-        "nameko==2.12.0"
+        "nameko<3"
     ],
     test_suite='pytest',
     setup_requires=['pytest-runner'],

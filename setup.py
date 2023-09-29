@@ -8,9 +8,10 @@ setuptools.setup(
     version="2.0.1",
     author="Jesus Gutierrez Almazan",
     author_email="jesus.pedro.gutierrez.almazan@gmail.com",
+    maintainer="Rafael Mendes Pacini Bachiega",
     description="Use django into a nameko service",
     long_description=long_description,
-    url="https://github.com/jesusenlanet/django-nameko-standalone",
+    url="https://github.com/Mendes11/django-nameko-standalone",
     packages=['django_nameko_standalone'],
     platforms=['Linux'],
     install_requires=[

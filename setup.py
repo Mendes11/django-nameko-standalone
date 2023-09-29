@@ -4,8 +4,8 @@ with open('README.txt') as file:
     long_description = file.read()
 
 setuptools.setup(
-    name="django-nameko-standalone",
-    version="2.0.1",
+    name="nameko-django-orm",
+    version="2.0.2",
     author="Jesus Gutierrez Almazan",
     author_email="jesus.pedro.gutierrez.almazan@gmail.com",
     maintainer="Rafael Mendes Pacini Bachiega",

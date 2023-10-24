@@ -15,8 +15,9 @@ setuptools.setup(
     packages=['django_nameko_standalone'],
     platforms=['Linux'],
     install_requires=[
-        "Django==3.0.7",
-        "nameko==2.12.0"
+        "Django>=3.0.7,<=4.2.6",
+        "nameko>=2.12.0,<=2.14.1",
+        "importlib-metadata<5.0"
     ],
     test_suite='pytest',
     setup_requires=['pytest-runner'],
@@ -26,11 +27,11 @@ setuptools.setup(
     classifiers=[
         "Environment :: Web Environment",
         "Intended Audience :: Developers",
-        "Programming Language :: Python :: 3.6",
+        "Programming Language :: Python :: >=3.6.15",
         "License :: OSI Approved :: MIT License",
         "Operating System :: OS Independent",
         "Development Status :: 5 - Production/Stable",
-        "Framework :: Django :: 3.0",
+        "Framework :: Django :: >=3.0.7,<=4.2.6",
         "Topic :: Software Development :: Libraries",
     ],
 )

@@ -3,6 +3,7 @@
 
 # DJANGO NAMEKO STANDALONE
 [![PyPI version](https://badge.fury.io/py/nameko-django-orm.svg)](https://badge.fury.io/py/nameko-django-orm) 
+[![PyPI Supported Python Versions](https://img.shields.io/pypi/pyversions/nameko-django-orm.svg)](https://pypi.python.org/pypi/nameko-django-orm/)
 [![Build Status](https://github.com/mendes11/django-nameko-standalone/actions/workflows/check.yml/badge.svg)](https://github.com/mendes11/django-nameko-standalone/actions/workflows/check.yml)
 
 ## Use django into your nameko services

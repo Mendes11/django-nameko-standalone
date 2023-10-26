@@ -28,7 +28,12 @@ setuptools.setup(
     classifiers=[
         "Environment :: Web Environment",
         "Intended Audience :: Developers",
-        "Programming Language :: Python :: >=3.6.15",
+        "Programming Language :: Python",
+        "Programming Language :: Python :: 3 :: Only",
+        "Programming Language :: Python :: 3.8",
+        "Programming Language :: Python :: 3.9",
+        "Programming Language :: Python :: 3.10",
+        "Programming Language :: Python :: 3.11",
         "License :: OSI Approved :: MIT License",
         "Operating System :: OS Independent",
         "Development Status :: 5 - Production/Stable",

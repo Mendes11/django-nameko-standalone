@@ -2,7 +2,9 @@
 **This Project has been Forked due to the original being discontinued** 
 
 # DJANGO NAMEKO STANDALONE
-[![PyPI version](https://badge.fury.io/py/django-nameko-standalone.svg)](https://badge.fury.io/py/django-nameko-standalone) [![Build Status](https://travis-ci.com/jesusenlanet/django-nameko-standalone.svg?branch=master)](https://travis-ci.com/jesusenlanet/django-nameko-standalone)
+[![PyPI version](https://badge.fury.io/py/nameko-django-orm.svg)](https://badge.fury.io/py/nameko-django-orm) 
+[![Build Status](https://github.com/mendes11/django-nameko-standalone/actions/workflows/check.yml/badge.svg)](https://github.com/mendes11/django-nameko-standalone/actions/workflows/check.yml)
+
 ## Use django into your nameko services
 ## Requirements
 Developed for Python3.6.

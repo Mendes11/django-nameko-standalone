@@ -18,7 +18,7 @@ setuptools.setup(
         "Django>=3",
         "nameko>=2.12",
         "importlib-metadata<5",
-        "distutils; python_version>='3.12'"
+        "setuptools; python_version>='3.12'"
     ],
     test_suite='pytest',
     setup_requires=['pytest-runner'],

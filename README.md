@@ -8,12 +8,12 @@
 
 ## Use django into your nameko services
 ## Requirements
-Developed for Python3.6.
+Developed for Python3.8.
 
 Have dependecies of:
 
 * Django==3.0.7
-* nameko==2.12.0
+* nameko==3.0.0-rc11
 
 ## Installation
 `pip install nameko-django-orm`

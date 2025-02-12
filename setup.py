@@ -16,8 +16,8 @@ setuptools.setup(
     platforms=['Linux'],
     install_requires=[
         "Django>=3",
-        "nameko>=2.12",
-        "importlib-metadata<5",
+        "nameko>=2.12.0,<4",
+        "importlib-metadata<=8.5.0,>=6.0",
         "setuptools; python_version>='3.12'"
     ],
     test_suite='pytest',

@@ -5,7 +5,7 @@ with open('README.txt') as file:
 
 setuptools.setup(
     name="nameko-django-orm",
-    version="2.0.3",
+    version="2.0.4",
     author="Jesus Gutierrez Almazan",
     author_email="jesus.pedro.gutierrez.almazan@gmail.com",
     maintainer="Rafael Mendes Pacini Bachiega",
